@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"var global = (1,eval)(\"this\");\n\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n/** Detect free variable `global` from Node.js. */\nvar freeGlobal = typeof global == 'object' && global && global.Object === Object && global;\n\nexports.default = freeGlobal;"},"hash":"1366691b2791335d93486402a8ec58e4"}
