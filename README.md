@@ -23,7 +23,7 @@
 ## 使用方法
 ```
 git clone
-npm insatll
+npm install
 npm run dev
 localhost:1234
 ```
