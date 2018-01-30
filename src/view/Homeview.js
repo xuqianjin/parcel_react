@@ -9,9 +9,7 @@ export default class Homeview extends Component {
     super(props);
     this.state = {}
   }
-  componentWillMount() {
-    this.props.getCatRoot()
-  }
+  componentWillMount() {}
   componentDidMount() {}
   componentWillReceiveProps(nextProps) {}
   componentDidUpdate() {}

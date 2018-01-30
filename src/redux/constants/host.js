@@ -1,2 +1,2 @@
 
-export const API_HOST = "//apitest.meifz.com"
+export const API_HOST = "//sl.baicaiyun.com/api/"

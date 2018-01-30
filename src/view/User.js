@@ -8,8 +8,8 @@ export default class User extends Component {
     this.state = {}
   }
   componentWillMount() {
-  console.log(process.env.DB_PASS);
-}
+    console.log(process.env.DB_PASS);
+  }
   componentDidMount() {}
   componentWillReceiveProps(nextProps) {}
   componentDidUpdate() {}
