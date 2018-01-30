@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"react-router/es/MemoryRouter","loc":{"line":2,"column":25}}],"generated":{"js":"\"use strict\";Object.defineProperty(exports,\"__esModule\",{value:!0});var e=require(\"react-router/es/MemoryRouter\"),r=t(e);function t(e){return e&&e.__esModule?e:{default:e}}exports.default=r.default;"},"hash":"a120c39b584c4595a96d8b8421d2fa6f","cacheData":{"env":{}}}

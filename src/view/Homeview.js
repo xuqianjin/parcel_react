@@ -3,6 +3,7 @@ import {connect} from "react-redux"
 import classNames from "classnames"
 import {getCatRoot, getCatProduct} from '../redux/modules/AboutProductReducer'
 import {history} from 'react-router-dom'
+import styles from './styles.scss'
 @connect(state => ({AboutProductReducer: state.AboutProductReducer}), {getCatRoot, getCatProduct})
 export default class Homeview extends Component {
   constructor(props) {
@@ -10,7 +11,9 @@ export default class Homeview extends Component {
     this.state = {}
   }
   componentWillMount() {}
-  componentDidMount() {}
+  componentDidMount() {
+    console.log(process.env.DB_PASS);
+  }
   componentWillReceiveProps(nextProps) {}
   componentDidUpdate() {}
   componentWillUnmount() {}
@@ -19,7 +22,7 @@ export default class Homeview extends Component {
   }
   render() {
     return (<div>
-      <button onClick={this.onclick}>下一页</button>
+      <button className={styles.button} onClick={this.onclick}>下一页</button>
     </div>)
   }
 }

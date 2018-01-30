@@ -27,3 +27,9 @@ npm install
 npm run dev
 localhost:1234
 ```
+## 打包文件
+```
+npm run build
+node Z-OpenHtmlServer.js //Z-OpenHtmlServer.js启动一个node服务器,并默认指向dist/index.html
+localhost:8080
+```
